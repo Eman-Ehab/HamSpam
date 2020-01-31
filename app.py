@@ -8,6 +8,8 @@ from flask import Flask,render_template,url_for,request
 
 a = [1, 2, 3, 4, 5]
 
+master_list = [1, 2, 3, 4, 5]
+
 app = Flask(__name__)
 
 @app.route('/')
